@@ -1,9 +1,12 @@
 # My linux command
 Work in progress... 
+
 __My distro: Ubuntu 16.04.4 LTS__ 
 
-## Basic command (Suppose one day, I lost my memory on all things linux)  
+## Basic command 
+_(Suppose one day, I lost my memory on all things linux)_ 
 
+Command | Uses
 ---|---
 cd | Change directory 
 clear | Clear the screen 
@@ -38,7 +41,7 @@ sudo apt-get isntall mysql-server
 
 
 ### PHP 
-sudo apt-get isntall php5 libapache2-mod-php5 
+sudo apt-get install php5 libapache2-mod-php5 
 
 ### Start/Restart/Stop Server
 sudo /etc/init.d/apache2 start
