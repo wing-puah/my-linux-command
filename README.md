@@ -26,36 +26,36 @@ touch | Make file
 
 ## LAMP 
 ### Apache 
-sudo apt-get install apache2 
+`sudo apt-get install apache2`
 
 *When everything screws up very badly and you want to clear everything to a true clean state.* 
 
-sudo apt-get remove --purge apache2*
+`sudo apt-get remove --purge apache2`
 
-whereis apache2 
+`whereis apache2` OR `which apache2` 
 
 __delete the file shown in the above command__ 
 
 ### MySQL 
-sudo apt-get isntall mysql-server 
-
+`sudo apt-get install mysql-server`
 
 ### PHP 
-sudo apt-get install php5 libapache2-mod-php5 
+`sudo apt-get install php7.1`
+`sudo apt-get install libapache2-mod-php5`
 
 ### Start/Restart/Stop Server
-sudo /etc/init.d/apache2 start
+`sudo /etc/init.d/apache2 start`
 
-sudo /etc/init.d/apache2 restart 
+`sudo /etc/init.d/apache2 restart`
 
-sudo /etc/init.d/apache2 stop 
+`sudo /etc/init.d/apache2 stop` 
 
 
 ## Python 
 ### Virtualenv 
 __Install__
 
-pip install virtualenv 
+`pip install virtualenv` 
 
 __Create a virtual environemnt__ 
 
