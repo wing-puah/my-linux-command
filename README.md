@@ -1,7 +1,7 @@
 # My linux command
 Work in progress...
 
-__My distro: Ubuntu 16.04.4 LTS__
+__My distro: Ubuntu 18.04 LTS__
 
 ## Basic command
 _(Suppose one day, I lost my memory on all things linux)_
@@ -73,11 +73,13 @@ __Install__
 
 __Create a virtual environemnt__
 
-`cd my_project_folder
-
-virtualenv my_project`
+```
+cd my_project_folder
+virtualenv my_project
+```
 
 __Activate the virtual environment__
+
 `source my_project/bin/activate`
 
 *Name of the current virtual environment will appear on the left of the prompt (e.g. (my_project)Your-Computer-Name:your_project UserName$*
